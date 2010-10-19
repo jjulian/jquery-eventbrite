@@ -1,0 +1,1 @@
+A little jquery plugin that will pull the attendees from an eventbrite event and add them to a webpage as (hotlinked) list items in a UL. It uses YQL and $.ajax and JSONP.
