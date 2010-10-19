@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+  <h1>jquery.eventbrite</h1>
+  <div class="eventarea" style="border:1px solid #ccc;padding:5px;"></div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="jquery.eventbrite.js"></script>
+  <script>
+    $('.eventarea').eventbrite_attendees({
+      app_key: 'get your own key at http://www.eventbrite.com/api/key',
+      event_id: '943934333'
+    });
+  </script>
+</body>
+</html>
